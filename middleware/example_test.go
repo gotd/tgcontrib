@@ -33,7 +33,9 @@ func Example() {
 	api := tg.NewClient(client)
 	ctx := context.TODO()
 	err := client.Run(ctx, func(ctx context.Context) error {
-		_, err := api.ContactsResolveUsername(ctx, "@self")
+		_, err := api.ContactsResolveUsername(ctx, &tg.ContactsResolveUsernameRequest{
+			Username: "@self",
+		})
 		return err
 	})
 	if err != nil {

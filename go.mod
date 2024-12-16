@@ -1,8 +1,8 @@
 module github.com/gotd/contrib
 
-go 1.22
+go 1.23.3
 
-toolchain go1.22.5
+toolchain go1.23.4
 
 require (
 	github.com/beevik/ntp v1.4.3
@@ -13,7 +13,7 @@ require (
 	github.com/go-faster/jx v1.1.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/gotd/neo v0.1.5
-	github.com/gotd/td v0.115.0
+	github.com/gotd/td v0.116.0
 	github.com/hashicorp/vault/api v1.15.0
 	github.com/minio/minio-go/v7 v7.0.82
 	github.com/prometheus/client_golang v1.20.5
@@ -40,6 +40,7 @@ require (
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b // indirect
 	github.com/cockroachdb/redact v1.1.5 // indirect
 	github.com/cockroachdb/tokenbucket v0.0.0-20230807174530-cc333fc44b06 // indirect
+	github.com/coder/websocket v1.8.12 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
@@ -75,17 +76,16 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.55.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	github.com/rogpeppe/go-internal v1.12.0 // indirect
+	github.com/rogpeppe/go-internal v1.13.1 // indirect
 	github.com/rs/xid v1.6.0 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
-	golang.org/x/crypto v0.28.0 // indirect
+	golang.org/x/crypto v0.30.0 // indirect
 	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df // indirect
-	golang.org/x/net v0.30.0 // indirect
+	golang.org/x/net v0.32.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	nhooyr.io/websocket v1.8.11 // indirect
 	rsc.io/qr v0.2.0 // indirect
 )
 
